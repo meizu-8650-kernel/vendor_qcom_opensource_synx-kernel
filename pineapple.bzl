@@ -8,7 +8,6 @@ def define_pineapple():
         modules = [
             "synx-driver",
             "ipclite",
-            "ipclite_test",
         ],
         config_options = [
             "TARGET_SYNX_ENABLE",

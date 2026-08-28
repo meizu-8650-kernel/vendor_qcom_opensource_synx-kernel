@@ -4,6 +4,10 @@ package(
     ],
 )
 
+exports_files([
+    "dt-bindings/ipclite-signals.h",
+])
+
 load("//build/kernel/kleaf:kernel.bzl", "ddk_headers")
 
 driver_header_globs = [
